@@ -1,2 +1,5 @@
+console.log('Version -----'+ gQ.version());
 
-console.log('Version in other js '+ window.gq.version());
+gQ.start = function() {
+    console.log(gQ('.heading'));
+}
